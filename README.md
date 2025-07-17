@@ -7,7 +7,7 @@
 
 ## 🌐 Live Preview
 
-🎮 [Play Mind Palace](https://mindpalaceq.netlify.app/)
+🎮 [Play Mind Palace](https://mind-palace-alpha.vercel.app/)
 
 ---
 
@@ -30,7 +30,7 @@
 - **Styling:** Tailwind CSS
 - **Animation:** Canvas Confetti, Framer Motion (optional)
 - **Illustrations:** Custom character image, gradients, and icons
-- **Hosting:** Netlify 
+- **Hosting:** Vercel 
 
 ---
 

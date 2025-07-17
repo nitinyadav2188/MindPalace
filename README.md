@@ -7,7 +7,7 @@
 
 ## 🌐 Live Preview
 
-🎮 [Play Mind Palace](#) *(Demo link placeholder — insert deployment URL)*
+🎮 [Play Mind Palace](https://mindpalaceq.netlify.app/)
 
 ---
 
@@ -30,7 +30,7 @@
 - **Styling:** Tailwind CSS
 - **Animation:** Canvas Confetti, Framer Motion (optional)
 - **Illustrations:** Custom character image, gradients, and icons
-- **Hosting:** Vercel / Netlify compatible
+- **Hosting:** Netlify 
 
 ---
 

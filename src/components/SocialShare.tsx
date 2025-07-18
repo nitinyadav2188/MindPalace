@@ -11,11 +11,11 @@ export const SocialShare: React.FC<SocialShareProps> = ({ score, totalQuestions 
   const [copied, setCopied] = React.useState(false);
   
   const percentage = Math.round((score / totalQuestions) * 100);
-  const shareText = `🧠 I just completed the Mind Palace quiz and scored ${score}/${totalQuestions} (${percentage}%)! Test your knowledge in this magical learning adventure. 🏰✨`;
+  const shareText = `🧠 I just completed the Mind Palace quiz and scored ${score}/${totalQuestions} (${percentage}%)! Test your knowledge in this magical learning adventure. 🏰✨ #MindPalace`;
   const shareUrl = window.location.origin;
 
   const handleTwitterShare = () => {
-    const twitterText = `${shareText} @nitinyadav2188 #MindPalace #Quiz #Learning`;
+    const twitterText = `${shareText} @nitinyadav2188`;
     const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(twitterText)}&url=${encodeURIComponent(shareUrl)}`;
     window.open(twitterUrl, '_blank', 'width=550,height=420');
   };
